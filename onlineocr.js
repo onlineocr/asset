@@ -1,0 +1,1 @@
+function openPopup(u){window.open(u,'shareWindow','width=600,height=500,resizable=yes,scrollbars=yes')}function copyShareLink(){const u=window.location.href;navigator.clipboard.writeText(u).then(()=>alert("Page link copied to clipboard!")).catch(()=>alert("Failed to copy link."))}
